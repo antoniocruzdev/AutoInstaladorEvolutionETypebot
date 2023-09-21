@@ -52,7 +52,7 @@ Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, 
 
 Normal
 ```
-sudo apt install -y git && git clone https://github.com/oriondesign2015/AutoInstaladorEvolutionETypebot.git && cd AutoInstaladorEvolutionETypebot && chmod +x evolution_e_typebot.sh && ./evolution_e_typebot.sh
+sudo apt install -y git && git clone https://github.com/antoniocruzdev/AutoInstaladorEvolutionETypebot.git && cd AutoInstaladorEvolutionETypebot && chmod +x evolution_e_typebot.sh && ./evolution_e_typebot.sh
 ```
 ou
 Developer
