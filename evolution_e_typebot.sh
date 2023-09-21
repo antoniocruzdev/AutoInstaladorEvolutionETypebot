@@ -367,7 +367,7 @@ services:
       - POSTGRES_PASSWORD=typebot
   typebot-builder:
     ports:
-      - $portabuilder:3000
+      - $portabuilder:portabuilder
     image: baptistearno/typebot-builder:main
     restart: always
     depends_on:
@@ -395,7 +395,7 @@ services:
       - S3_ENDPOINT=$storage
   typebot-viewer:
     ports:
-      - $portaviewer:3000
+      - $portaviewer:portaviewer
     image: baptistearno/typebot-viewer:main
     restart: always
     environment:
